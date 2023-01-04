@@ -67,6 +67,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "ember-a11y-refocus": "^3.0.2"
+    "ember-a11y-refocus": "^3.0.2",
+    "ember-composable-helpers": "^5.0.0"
   }
 }

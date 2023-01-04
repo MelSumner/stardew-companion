@@ -1,0 +1,23 @@
+{{page-title "Fishing"}}
+<h2>Fishing</h2>
+
+<form action="">
+    <div class="form-group">
+        <label for="select-season">Current Season</label>
+        <select name="season" id="select-season">
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+            <option value="fall">Fall</option>
+            <option value="winter">Winter</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="select-location">Current Location</label>
+        <select name="location" id="select-location">
+            {{#each this.model.data as |f|}}
+                <option value={{f.location}}>{{f.location}}</option>
+            {{/each}}
+            
+        </select>
+    </div>
+</form>

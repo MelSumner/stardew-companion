@@ -2,532 +2,620 @@
     "data": [
         {
             "id": 1,
-            "name": "Albacore",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": "Ocean",
-            "season": ["Fall", "Winter"],
-            "weather": "any"
+            "attributes": {
+                "name": "Albacore",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": "Ocean",
+                "season": ["Fall", "Winter"],
+                "weather": "any"
+            }
         }, {
             "id": 2,
-            "name": "Anchovy",
-            "price": {
-                "regular": 30,
-                "silver": 37,
-                "gold": 45,
-                "iridium": 60
-            },
-            "location": "Ocean",
-            "season": ["Spring", "Fall"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Anchovy",
+                "price": {
+                    "regular": 30,
+                    "silver": 37,
+                    "gold": 45,
+                    "iridium": 60
+                },
+                "location": "Ocean",
+                "season": ["Spring", "Fall"],
+                "weather": "Any"
+            }
         }, {
             "id": 3,
-            "name": "Bream",
-            "price": {
-                "regular": 45,
-                "silver": 56,
-                "gold": 67,
-                "iridium": 90
-            },
-            "location": "River",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Bream",
+                "price": {
+                    "regular": 45,
+                    "silver": 56,
+                    "gold": 67,
+                    "iridium": 90
+                },
+                "location": "River",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 4,
-            "name": "Bullhead",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": "Mountain Lake",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Bullhead",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": "Mountain Lake",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 5,
-            "name": "Carp",
-            "price": {
-                "regular": 30,
-                "silver": 37,
-                "gold": 45,
-                "iridium": 60
-            },
-            "location": ["Mountain Lake", "Secret Woods", "The Sewers"],
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Carp",
+                "price": {
+                    "regular": 30,
+                    "silver": 37,
+                    "gold": 45,
+                    "iridium": 60
+                },
+                "location": ["Mountain Lake", "Secret Woods", "The Sewers"],
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 6,
-            "name": "Catfish",
-            "price": {
-                "regular": 200,
-                "silver": 250,
-                "gold": 300,
-                "iridium": 400
-            },
-            "location": ["River", "Secret Woods", "Witch's Swamp"],
-            "season": ["Spring", "Summer"],
-            "weather": "Rain"
+            "attributes": {
+                "name": "Catfish",
+                "price": {
+                    "regular": 200,
+                    "silver": 250,
+                    "gold": 300,
+                    "iridium": 400
+                },
+                "location": ["River", "Secret Woods", "Witch's Swamp"],
+                "season": ["Spring", "Summer"],
+                "weather": "Rain"
+            }
         }, {
             "id": 7,
-            "name": "Chub",
-            "price": {
-                "regular": 50,
-                "silver": 62,
-                "gold": 75,
-                "iridium": 100
-            },
-            "location": ["Forest River", "Mountain Lake"],
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Chub",
+                "price": {
+                    "regular": 50,
+                    "silver": 62,
+                    "gold": 75,
+                    "iridium": 100
+                },
+                "location": ["Forest River", "Mountain Lake"],
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 8,
-            "name": "Dorado",
-            "price": {
-                "regular": 100,
-                "silver": 125,
-                "gold": 150,
-                "iridium": 200
-            },
-            "location": ["River"],
-            "season": "Summer",
-            "weather": "Any"
+            "attributes": {
+                "name": "Clam",
+                "price": {
+                    "regular": 50,
+                    "silver": 62,
+                    "gold": 75,
+                    "iridium": 100
+                },
+                "location": "Ocean",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 9,
-            "name": "Eel",
-            "price": {
-                "regular": 85,
-                "silver": 106,
-                "gold": 127,
-                "iridium": 170
-            },
-            "location": "Ocean",
-            "season": [ "spring", "fall"],
-            "weather": "Rain"
+            "attributes": {
+                "name": "Crayfish",
+                "price": {
+                    "regular": 50,
+                    "silver": 62,
+                    "gold": 75,
+                    "iridium": 100
+                },
+                "location": "Ocean",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 10,
-            "name": "Flounder",
-            "price": {
-                "regular": 100,
-                "silver": 125,
-                "gold": 150,
-                "iridium": 200
-            },
-            "location": "Ocean",
-            "seasons": ["spring", "summer"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Dorado",
+                "price": {
+                    "regular": 1500,
+                    "silver": 1875,
+                    "gold": 2250,
+                    "iridium": 3000
+                },
+                "location": "Ocean",
+                "season": ["Summer"],
+                "weather": "Any"
+            }
         }, {
             "id": 11,
-            "name": "Ghostfish",
-            "price": {
-                "regular": 45,
-                "silver": 56,
-                "gold": 67,
-                "iridium": 90
-            },
-            "location": "Mines",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Eel",
+                "price": {
+                    "regular": 80,
+                    "silver": 100,
+                    "gold": 120,
+                    "iridium": 160
+                },
+                "location": "Mines",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 12,
-            "name": "Halibut",
-            "price": {
-                "regular": 80,
-                "silver": 100,
-                "gold": 120,
-                "iridium": 160
-            },
-            "location": "Ocean",
-            "seasons": ["spring", "summer", "winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Halibut",
+                "price": {
+                    "regular": 80,
+                    "silver": 100,
+                    "gold": 120,
+                    "iridium": 160
+                },
+                "location": "Ocean",
+                "seasons": ["spring", "summer", "winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 13,
-            "name": "Herring",
-            "price": {
-                "regular": 30,
-                "silver": 37,
-                "gold": 45,
-                "iridium": 60
-            },
-            "location": "Ocean",
-            "seasons": ["Spring", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Herring",
+                "price": {
+                    "regular": 30,
+                    "silver": 37,
+                    "gold": 45,
+                    "iridium": 60
+                },
+                "location": "Ocean",
+                "seasons": ["Spring", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 14,
-            "name": "Ice Pip",
-            "price": {
-                "regular": 500,
-                "silver": 625,
-                "gold": 750,
-                "iridium": 1000
-            },
-            "location": "Mines",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Ice Pip",
+                "price": {
+                    "regular": 500,
+                    "silver": 625,
+                    "gold": 750,
+                    "iridium": 1000
+                },
+                "location": "Mines",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 15,
-            "name": "Largemouth Bass",
-            "price": {
-                "regular": 100,
-                "silver": 125,
-                "gold": 150,
-                "iridium": 200
-            },
-            "location": "Mountain Lake",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Largemouth Bass",
+                "price": {
+                    "regular": 100,
+                    "silver": 125,
+                    "gold": 150,
+                    "iridium": 200
+                },
+                "location": "Mountain Lake",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 16,
-            "name": "Lava Eel",
-            "price": {
-                "regular": 700,
-                "silver": 875,
-                "gold": 1050,
-                "iridium": 1400
-            },
-            "location": "Mines",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Lava Eel",
+                "price": {
+                    "regular": 700,
+                    "silver": 875,
+                    "gold": 1050,
+                    "iridium": 1400
+                },
+                "location": "Mines",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 17,
-            "name": "Lingcod",
-            "price": {
-                "regular": 120,
-                "silver": 150,
-                "gold": 180,
-                "iridium": 240
-            },
-            "location": ["River", "Mountain Lake"],
-            "season": "Winter",
-            "weather": "Any"
+            "attributes": {
+                "name": "Lingcod",
+                "price": {
+                    "regular": 120,
+                    "silver": 150,
+                    "gold": 180,
+                    "iridium": 240
+                },
+                "location": ["River", "Mountain Lake"],
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 18,
-            "name": "Midnight Carp",
-            "price": {
-                "regular": 150,
-                "silver": 187,
-                "gold": 225,
-                "iridium": 300
-            },
-            "location": ["Mountain Lake", "Cindersap Forest Pond"],
-            "season": ["Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Midnight Carp",
+                "price": {
+                    "regular": 150,
+                    "silver": 187,
+                    "gold": 225,
+                    "iridium": 300
+                },
+                "location": ["Mountain Lake", "Cindersap Forest Pond"],
+                "seasons": ["Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 19,
-            "name": "Octopus",
-            "price": {
-                "regular": 150,
-                "silver": 187,
-                "gold": 225,
-                "iridium": 300
-            },
-            "location": "Ocean",
-            "season": "Summer",
-            "weather": "Any"
+            "attributes": {
+                "name": "Octopus",
+                "price": {
+                    "regular": 150,
+                    "silver": 187,
+                    "gold": 225,
+                    "iridium": 300
+                },
+                "location": "Ocean",
+                "seasons": ["Summer"],
+                "weather": "Any"
+            }
         }, {
             "id": 20,
-            "name": "Perch",
-            "price": {
-                "regular": 55,
-                "silver": 68,
-                "gold": 82,
-                "iridium": 110
-            },
-            "location": ["River", "Forest Pond", "Mountain Lake"],
-            "season": "Winter",
-            "weather": "Any"
+            "attributes": {
+                "name": "Perch",
+                "price": {
+                    "regular": 55,
+                    "silver": 68,
+                    "gold": 82,
+                    "iridium": 110
+                },
+                "location": ["River", "Forest Pond", "Mountain Lake"],
+                "seasons": ["Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 21,
-            "name": "Pike",
-            "price": {
-                "regular": 100,
-                "silver": 125,
-                "gold": 150,
-                "iridium": 200
-            },
-            "location": ["River", "Forest Pond"],
-            "season": ["Summer", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Pike",
+                "price": {
+                    "regular": 100,
+                    "silver": 125,
+                    "gold": 150,
+                    "iridium": 200
+                },
+                "location": ["River", "Forest Pond"],
+                "seasons": ["Summer", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 22,
-            "name": "Pufferfish",
-            "price": {
-                "regular": 200,
-                "silver": 250,
-                "gold": 300,
-                "iridium": 400
-            },
-            "location": "Ocean",
-            "season": "Summer",
-            "weather": "Sunny"
+            "attributes": {
+                "name": "Pufferfish",
+                "price": {
+                    "regular": 200,
+                    "silver": 250,
+                    "gold": 300,
+                    "iridium": 400
+                },
+                "location": "Ocean",
+                "seasons": ["Summer"],
+                "weather": "Any"
+            }
         }, {
             "id": 23,
-            "name": "Rainbow Trout",
-            "price": {
-                "regular": 65,
-                "silver": 81,
-                "gold": 97,
-                "iridium": 130
-            },
-            "location": ["River", "Mountain Lake"],
-            "season": "Summer",
-            "weather": "Sunny"
+            "attributes": {
+                "name": "Rainbow Trout",
+                "price": {
+                    "regular": 65,
+                    "silver": 81,
+                    "gold": 97,
+                    "iridium": 130
+                },
+                "location": ["River", "Mountain Lake"],
+                "seasons": ["Summer"],
+                "weather": "Sunny"
+            }
         }, {
             "id": 24,
-            "name": "Red Mullet",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": "Ocean",
-            "season": ["Summer", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Red Mullet",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": "Ocean",
+                "seasons": ["Summer", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 25,
-            "name": "Red Snapper",
-            "price": {
-                "regular": 50,
-                "silver": 62,
-                "gold": 75,
-                "iridium": 100
-            },
-            "location": "Ocean",
-            "season": ["Summer", "Fall", "Winter"],
-            "weather": "Rain"
+            "attributes": {
+                "name": "Red Snapper",
+                "price": {
+                    "regular": 50,
+                    "silver": 62,
+                    "gold": 75,
+                    "iridium": 100
+                },
+                "location": "Ocean",
+                "seasons": ["Summer", "Fall", "Winter"],
+                "weather": "Rain"
+            }
         }, {
             "id": 26,
-            "name": "Salmon",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": "River",
-            "season": "Fall",
-            "weather": "Any"
+            "attributes": {
+                "name": "Salmon",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": "River",
+                "seasons": ["Fall"],
+                "weather": "Any"
+            }
         }, {
             "id": 27,
-            "name": "Sandfish",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": "The Desert",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Sandfish",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": "The Desert",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 28,
-            "name": "Sardine",
-            "price": {
-                "regular": 40,
-                "silver": 50,
-                "gold": 60,
-                "iridium": 80
-            },
-            "location": "Ocean",
-            "season": ["Spring", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Sardine",
+                "price": {
+                    "regular": 40,
+                    "silver": 50,
+                    "gold": 60,
+                    "iridium": 80
+                },
+                "location": "Ocean",
+                "seasons": ["Spring", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 29,
-            "name": "Scorpion Carp",
-            "price": {
-                "regular": 150,
-                "silver": 187,
-                "gold": 225,
-                "iridium": 300
-            },
-            "location": "The Desert",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Scorpion Carp",
+                "price": {
+                    "regular": 150,
+                    "silver": 187,
+                    "gold": 225,
+                    "iridium": 300
+                },
+                "location": "The Desert",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 30,
-            "name": "Sea Cucumber",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": "Ocean",
-            "season": ["Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Sea Cucumber",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": "Ocean",
+                "seasons": ["Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 31,
-            "name": "Shad",
-            "price": {
-                "regular": 60,
-                "silver": 75,
-                "gold": 90,
-                "iridium": 120
-            },
-            "location": "River",
-            "season": ["Spring", "Summer", "Fall"],
-            "weather": "Rain"
+            "attributes": {
+                "name": "Shad",
+                "price": {
+                    "regular": 60,
+                    "silver": 75,
+                    "gold": 90,
+                    "iridium": 120
+                },
+                "location": "River",
+                "seasons": ["Spring", "Summer", "Fall"],
+                "weather": "Rain"
+            }
         }, {
             "id": 32,
-            "name": "Slimejack",
-            "price": {
-                "regular": 100,
-                "silver": 125,
-                "gold": 150,
-                "iridium": 200
-            },
-            "location": "Mutant Bug Lair",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Slimejack",
+                "price": {
+                    "regular": 100,
+                    "silver": 125,
+                    "gold": 150,
+                    "iridium": 200
+                },
+                "location": "Mutant Bug Lair",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 33,
-            "name": "Smallmouth Bass",
-            "price": {
-                "regular": 50,
-                "silver": 62,
-                "gold": 75,
-                "iridium": 100
-            },
-            "location": ["River", "Forest Pond"],
-            "seasons": ["Spring", "Fall"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Smallmouth Bass",
+                "price": {
+                    "regular": 50,
+                    "silver": 62,
+                    "gold": 75,
+                    "iridium": 100
+                },
+                "location": ["River", "Forest Pond"],
+                "seasons": ["Spring", "Fall"],
+                "weather": "Any"
+            }
         }, {
             "id": 34,
-            "name": "Squid",
-            "price": {
-                "regular": 80,
-                "silver": 100,
-                "gold": 120,
-                "iridium": 160
-            },
-            "location": "Ocean",
-            "season": "Winter",
-            "weather": "Any"
+            "attributes": {
+                "name": "Squid",
+                "price": {
+                    "regular": 80,
+                    "silver": 100,
+                    "gold": 120,
+                    "iridium": 160
+                },
+                "location": "Ocean",
+                "seasons": ["Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 35,
-            "name": "Stonefish",
-            "price": {
-                "regular": 300,
-                "silver": 375,
-                "gold": 450,
-                "iridium": 600
-            },
-            "location": "Mines 20F",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Stonefish",
+                "price": {
+                    "regular": 300,
+                    "silver": 375,
+                    "gold": 450,
+                    "iridium": 600
+                },
+                "location": "Mines 20F",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 36,
-            "name": "Sturgeon",
-            "price": {
-                "regular": 200,
-                "silver": 250,
-                "gold": 300,
-                "iridium": 400
-            },
-            "location": "Mountain Lake",
-            "season": ["Summer", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Sturgeon",
+                "price": {
+                    "regular": 200,
+                    "silver": 250,
+                    "gold": 300,
+                    "iridium": 400
+                },
+                "location": "Mountain Lake",
+                "seasons": ["Summer", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 37,
-            "name": "Sunfish",
-            "price": {
-                "regular": 30,
-                "silver": 37,
-                "gold": 45,
-                "iridium": 60
-            },
-            "location": "River",
-            "season": ["Spring", "Summer"],
-            "weather": ["Sunny","Windy"]
+            "attributes": {
+                "name": "Sunfish",
+                "price": {
+                    "regular": 30,
+                    "silver": 37,
+                    "gold": 45,
+                    "iridium": 60
+                },
+                "location": "River",
+                "seasons": ["Spring", "Summer"],
+                "weather": ["Sunny","Windy"]
+            }
         }, {
             "id": 38,
-            "name": "Super Cucumber",
-            "price": {
-                "regular": 250,
-                "silver": 312,
-                "gold": 375,
-                "iridium": 500
-            },
-            "location": "Ocean",
-            "season": ["Summer", "Fall"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Super Cucumber",
+                "price": {
+                    "regular": 250,
+                    "silver": 312,
+                    "gold": 375,
+                    "iridium": 500
+                },
+                "location": "Ocean",
+                "seasons": ["Summer", "Fall"],
+                "weather": "Any"
+            }
         }, {
             "id": 39,
-            "name": "Tiger Trout",
-            "price": {
-                "regular": 150,
-                "silver": 187,
-                "gold": 225,
-                "iridium": 300
-            },
-            "location": "River",
-            "season": ["Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Tiger Trout",
+                "price": {
+                    "regular": 150,
+                    "silver": 187,
+                    "gold": 225,
+                    "iridium": 300
+                },
+                "location": "River",
+                "seasons": ["Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 40,
-            "name": "Tilapia",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": "Ocean",
-            "season": ["Summer", "Fall"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Tilapia",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": "Ocean",
+                "seasons": ["Summer", "Fall"],
+                "weather": "Any"
+            }
         }, {
             "id": 41,
-            "name": "Tuna",
-            "price": {
-                "regular": 100,
-                "silver": 125,
-                "gold": 150,
-                "iridium": 200
-            },
-            "location": "Ocean",
-            "season": ["Summer", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Tuna",
+                "price": {
+                    "regular": 100,
+                    "silver": 125,
+                    "gold": 150,
+                    "iridium": 200
+                },
+                "location": "Ocean",
+                "seasons": ["Summer", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 42,
-            "name": "Void Salmon",
-            "price": {
-                "regular": 150,
-                "silver": 187,
-                "gold": 225,
-                "iridium": 300
-            },
-            "location": "Witch's Swamp",
-            "season": ["Spring", "Summer", "Fall", "Winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Void Salmon",
+                "price": {
+                    "regular": 150,
+                    "silver": 187,
+                    "gold": 225,
+                    "iridium": 300
+                },
+                "location": "Witch's Swamp",
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }, {
             "id": 43,
-            "name": "Walleye",
-            "price": {
-                "regular": 105,
-                "silver": 131,
-                "gold": 157,
-                "iridium": 210
-            },
-            "location": ["River", "Forest Pond", "Mountain Lake"],
-            "season": ["Fall", "Winter"],
-            "weather": "Rain"
+            "attributes": {
+                "name": "Walleye",
+                "price": {
+                    "regular": 105,
+                    "silver": 131,
+                    "gold": 157,
+                    "iridium": 210
+                },
+                "location": ["River", "Forest Pond", "Mountain Lake"],
+                "seasons": ["Fall", "Winter"],
+                "weather": "Rain"
+            }
         }, {
             "id": 44,
-            "name": "Woodskip",
-            "price": {
-                "regular": 75,
-                "silver": 93,
-                "gold": 112,
-                "iridium": 150
-            },
-            "location": ["Secret Woods","Forest Farm"],
-            "season": ["spring", "summer", "fall", "winter"],
-            "weather": "Any"
+            "attributes": {
+                "name": "Woodskip",
+                "price": {
+                    "regular": 75,
+                    "silver": 93,
+                    "gold": 112,
+                    "iridium": 150
+                },
+                "location": ["Secret Woods","Forest Farm"],
+                "seasons": ["Spring", "Summer", "Fall", "Winter"],
+                "weather": "Any"
+            }
         }
     ]
 }

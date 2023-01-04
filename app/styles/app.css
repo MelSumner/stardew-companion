@@ -1,0 +1,84 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size:16px;
+    line-height: 1.2;
+    color: black;
+    background-color: white;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: 
+        "header" 
+        "main"
+        "footer";
+}
+header, main, footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+header {
+    background-color: yellow;
+    grid-area: header;
+}
+main {
+    background-color: aliceblue;
+    grid-area: main;
+    min-height: 80vh;
+}
+footer {
+    background-color: lightgreen;
+    grid-area: footer;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* Components */
+
+/* Deck (of cards) */
+.sc-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+/* Card */
+
+.sc-card {}
+
+/* This link fills the area of the card */
+.sc-card__link {
+    border-radius: 3px;
+    border: 2px solid blue;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sc-card__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.sc-card__icon {
+    width: 100%;
+    display: flex;
+
+}
+.sc-card__icon > img {
+    display: block;
+    margin: auto;
+}
