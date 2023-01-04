@@ -3,21 +3,20 @@
 
 <form action="">
     <div class="form-group">
-        <label for="select-season">Current Season</label>
-        <select name="season" id="select-season">
-            <option value="spring">Spring</option>
-            <option value="summer">Summer</option>
-            <option value="fall">Fall</option>
-            <option value="winter">Winter</option>
-        </select>
+        <fieldset>
+            <legend>Current Season:</legend>
+            <input type="radio" name="season-spring" id="radio-spring"><label for="radio-spring">Spring</label>
+            <input type="radio" name="season-summer" id="radio-summer"><label for="radio-summer">Summer</label>
+            <input type="radio" name="season-fall" id="radio-fall"><label for="radio-fall">Fall</label>
+            <input type="radio" name="season-winter" id="radio-winter"><label for="radio-winter">Winter</label>
+        </fieldset>
     </div>
     <div class="form-group">
         <label for="select-location">Current Location</label>
         <select name="location" id="select-location">
-            {{#each this.model.data as |f|}}
-                <option value={{f.location}}>{{f.location}}</option>
+            {{#each (flatten (sort-by "location:asc" this.model.data)) as |f|}}
+                <option>{{f.location}}</option>
             {{/each}}
-            
         </select>
     </div>
 </form>
