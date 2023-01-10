@@ -26,16 +26,15 @@ header, main, footer {
     padding-right: 1rem;
 }
 header {
-    background-color: yellow;
+    background-color: aliceblue;
     grid-area: header;
 }
 main {
-    background-color: aliceblue;
     grid-area: main;
     min-height: 80vh;
 }
 footer {
-    background-color: lightgreen;
+    background-color: aliceblue;
     grid-area: footer;
     display: flex;
     flex-flow: row wrap;
@@ -81,4 +80,33 @@ footer {
 .sc-card__icon > img {
     display: block;
     margin: auto;
+}
+
+form {
+    width: 70%;
+    max-width: 480px;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+select {
+    display:block;
+    clear: both;
+}
+legend, label {
+    font-weight: 700;
+}
+fieldset {
+    border-color: transparent;
+}
+fieldset > label {
+    font-weight: normal;
+}
+
+label + input[type="radio"] {
+    margin-left: 5px;
+    margin-right: 2px;
 }
