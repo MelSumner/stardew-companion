@@ -14,8 +14,9 @@
     <div class="form-group">
         <label for="select-location">Current Location</label>
         <select name="location" id="select-location">
-            {{#each (flatten (sort-by "location:asc" this.model.data)) as |f|}}
-                <option>{{f.location}}</option>
+            {{#each (union (flatten (array (map-by "location" this.model.data)))) as |record|}}
+                {{log record}}
+                <option>{{record}}</option>
             {{/each}}
         </select>
     </div>
